@@ -2,7 +2,7 @@ echo "WARNING: Please ensure your bot files are in the root of container. Ensure
 echo "WARNING: Please ensure your main botfile is named index.js"
 echo "setting up NPM"
 cd /home/container
-echo "Running npm i -g...."
+echo "Running npm i"
 npm install
 echo "running node ."
 node . 
