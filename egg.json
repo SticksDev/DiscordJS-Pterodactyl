@@ -1,0 +1,31 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v1",
+        "update_url": null
+    },
+    "exported_at": "2021-10-26T19:48:25-04:00",
+    "name": "DiscordJS - v13",
+    "author": "unknown@unknown.com",
+    "description": "DiscordJS In petro, using the node:16 dockerfile",
+    "features": null,
+    "images": [
+        "thatcooldevguy\/discordjsv13-petro"
+    ],
+    "file_denylist": [],
+    "startup": "node .",
+    "config": {
+        "files": "{}",
+        "startup": "{}",
+        "logs": "{}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": null,
+            "container": "alpine:3.4",
+            "entrypoint": "ash"
+        }
+    },
+    "variables": []
+}
